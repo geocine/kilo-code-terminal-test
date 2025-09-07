@@ -1,0 +1,22 @@
+# Terminal Emulator Test Configuration
+
+[variants]
+# List of terminal emulator variants to test
+names = ["sonoma-dusk-alpha", "grok-code-fast-1", "glm-4.5", "sonoma-sky-alpha"]
+
+[test_settings]
+# Maximum concurrent tests
+max_concurrent = 2
+
+# Default timeout for each test (in seconds)
+timeout_seconds = 10
+
+[paths]
+# Directory containing the executable files
+bin_dir = "bin"
+
+# Directory for temporary files during testing
+temp_dir = "temp"
+
+# Directory for test reports
+reports_dir = "reports"
